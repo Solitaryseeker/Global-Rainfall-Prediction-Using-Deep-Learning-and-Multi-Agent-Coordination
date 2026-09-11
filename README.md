@@ -71,21 +71,33 @@ The preprocessing pipelines are evaluated experimentally to determine which appr
 
 ---
 
+## 📅 Dataset Splitting
+
+A chronological data-splitting strategy is used to prevent future information from being used during model training.
+
+Training: 1 January 1982 – 31 December 2015
+Validation: 1 January 2016 – 31 December 2020
+Testing: 1 January 2021 – 21 December 2025
+
+This approach reflects a realistic rainfall forecasting scenario where future observations are unavailable during model development.
+
+---
+
 ## 🧠 Deep Learning Models
 
 Three deep learning architectures are investigated:
 
-### 1. LSTM
-
-Long Short-Term Memory networks are used as a baseline sequence model for learning temporal dependencies in rainfall data.
-
-### 2. Transformer Encoder
+### 1. Transformer Encoder
 
 The Transformer Encoder uses self-attention to learn relationships between different time steps in the rainfall sequence.
 
-### 3. iTransformer
+### 2. iTransformer
 
 The iTransformer architecture is used for multivariate time-series forecasting. It provides an alternative representation of multivariate temporal information and is used as one of the main forecasting architectures.
+
+---
+## Workflow
+
 
 ---
 
@@ -115,3 +127,7 @@ The proposed system consists of two levels of agents.
 
 Each country has an independent forecasting agent:
 
+
+## 📜 License
+
+This project is intended for academic and research purposes.
