@@ -98,6 +98,8 @@ The iTransformer architecture is used for multivariate time-series forecasting. 
 ---
 ## Workflow
 
+![](https://github.com/Solitaryseeker/Global-Rainfall-Prediction-Using-Deep-Learning-and-Multi-Agent-Coordination/blob/main/Photo/global%20rain%20.jpg )
+
 
 ---
 
@@ -127,6 +129,20 @@ The proposed system consists of two levels of agents.
 
 Each country has an independent forecasting agent:
 
+---
+🧩 Attention-Based Coordination Agent
+
+The main component of the proposed system is the Attention-Based Coordination Agent.
+
+The coordination agent receives information from all four regional agents.
+
+For every regional agent, three values are provided:
+
+- Predicted rainfall
+- R² score
+- Confidence score
+
+---
 
 ## 📜 License
 
