@@ -28,10 +28,10 @@ The proposed framework uses rainfall data from four countries:
 
 | Region | Dataset |
 |---|---|
-| 🇨🇳 China | Subnational Rainfall Indicators |
-| 🇳🇬 Nigeria | Subnational Rainfall Indicators |
-| 🇿🇦 South Africa | Subnational Rainfall Indicators |
-| 🇾🇪 Yemen | Subnational Rainfall Indicators |
+|  China | Subnational Rainfall Indicators |
+|  Nigeria | Subnational Rainfall Indicators |
+|  South Africa | Subnational Rainfall Indicators |
+|  Yemen | Subnational Rainfall Indicators |
 
 The datasets contain rainfall information at the subnational level, allowing the models to learn both temporal and geographical rainfall patterns.
 
@@ -98,7 +98,7 @@ The iTransformer architecture is used for multivariate time-series forecasting. 
 ---
 ## Workflow
 
-![](https://github.com/Solitaryseeker/Global-Rainfall-Prediction-Using-Deep-Learning-and-Multi-Agent-Coordination/blob/main/Photo/global%20rain%20.jpg )
+![](https://github.com/Solitaryseeker/Global-Rainfall-Prediction-Using-Deep-Learning-and-Multi-Agent-Coordination/blob/main/Photo/Multi-Agent%20Rainfall%20Forecasting%20Framework.png)
 
 
 ---
