@@ -28,10 +28,10 @@ The proposed framework uses rainfall data from four countries:
 
 | Region | Dataset |
 |---|---|
-|  China | Subnational Rainfall Indicators |
-|  Nigeria | Subnational Rainfall Indicators |
-|  South Africa | Subnational Rainfall Indicators |
-|  Yemen | Subnational Rainfall Indicators |
+|  China | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/chn-rainfall-subnational) |
+|  Nigeria | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/nga-rainfall-subnational) |
+|  South Africa | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/zaf-rainfall-subnational) |
+|  Yemen | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/yem-rainfall-subnational#) |
 
 The datasets contain rainfall information at the subnational level, allowing the models to learn both temporal and geographical rainfall patterns.
 
@@ -76,7 +76,9 @@ The preprocessing pipelines are evaluated experimentally to determine which appr
 A chronological data-splitting strategy is used to prevent future information from being used during model training.
 
 Training: 1 January 1982 – 31 December 2015
+
 Validation: 1 January 2016 – 31 December 2020
+
 Testing: 1 January 2021 – 21 December 2025
 
 This approach reflects a realistic rainfall forecasting scenario where future observations are unavailable during model development.
@@ -144,6 +146,20 @@ For every regional agent, three values are provided:
 
 ---
 
+## 📈 Final Regional Agent Performance
+
+The following results represent the final regional models used in
+the multi-agent coordination stage.
+
+| Regional Agent | Model | RMSE | MAE | R² |
+|---|---|---:|---:|---:|
+| China | iTransformer | 0.4005 | 0.3171 | 0.6298 |
+| Nigeria | iTransformer | 0.1894 | 0.1351 | 0.8753 |
+| South Africa | Transformer Encoder | 0.3375 | 0.2537 | 0.6958 |
+| Yemen | iTransformer | 0.3126 | 0.2280 | 0.8050 |
+| Coordination Agent | Attention-Based Coordination | 0.1386 | 0.1108 | 0.7883 |
+
+---
 ## 📜 License
 
 This project is intended for academic and research purposes.
