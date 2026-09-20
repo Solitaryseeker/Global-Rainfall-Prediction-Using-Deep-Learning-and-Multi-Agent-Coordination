@@ -28,10 +28,10 @@ The proposed framework uses rainfall data from four countries:
 
 | Region | Dataset |
 |---|---|
-|  China | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/chn-rainfall-subnational) |
-|  Nigeria | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/nga-rainfall-subnational) |
-|  South Africa | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/zaf-rainfall-subnational) |
-|  Yemen | ![Subnational Rainfall Indicators](https://data.humdata.org/dataset/yem-rainfall-subnational#) |
+|  China | [Subnational Rainfall Indicators](https://data.humdata.org/dataset/chn-rainfall-subnational) |
+|  Nigeria | [Subnational Rainfall Indicators](https://data.humdata.org/dataset/nga-rainfall-subnational) |
+|  South Africa | [Subnational Rainfall Indicators](https://data.humdata.org/dataset/zaf-rainfall-subnational) |
+|  Yemen | [Subnational Rainfall Indicators](https://data.humdata.org/dataset/yem-rainfall-subnational#) |
 
 The datasets contain rainfall information at the subnational level, allowing the models to learn both temporal and geographical rainfall patterns.
 
