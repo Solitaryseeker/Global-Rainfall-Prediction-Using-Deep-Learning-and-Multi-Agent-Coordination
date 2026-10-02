@@ -1,6 +1,6 @@
 # Global Rainfall Prediction Using Deep Learning and Multi-Agent Coordination
 
-## 🌧️ Overview
+
 ## 🌧️ Overview
 
 This repository presents a **Deep Learning-based framework for global rainfall forecasting using regional modeling and multi-agent coordination**. The study investigates how regional rainfall patterns can be modeled independently and subsequently coordinated to improve forecasting across geographically diverse regions.
